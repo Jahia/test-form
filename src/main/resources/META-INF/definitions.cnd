@@ -1,0 +1,7 @@
+<jnt = 'http://www.jahia.org/jahia/nt/1.0'>
+<tfnt = 'http://www.jahia.org/jahia/nt/tfnt/1.0'>
+<jmix = 'http://www.jahia.org/jahia/mix/1.0'>
+<tfmix = 'http://www.jahia.org/jahia/mix/tfmix/1.0'>
+
+[tfnt:testForm] > jnt:content, jmix:formContent
+ - submitionType (string, choicelist[resourceBundle]) = 'html' autocreated nofulltext < 'html', 'nativeJS', 'jQuery'
